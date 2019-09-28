@@ -85,6 +85,13 @@ $config['baseMaps'] = array(
     'url' => '//tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png',
     'maxZoom' => 20,
   ),
+  array(
+    'id' => 'osm-oc',
+    'name' => 'OSM-occitan',
+    'attribution' => '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, 
+    'url' => '//{s}.tile.openstreetmap.bzh/oc/{z}/{x}/{y}.png',
+    'maxZoom' => 20,
+  ),
 );
 
 // List of available user interface languages
